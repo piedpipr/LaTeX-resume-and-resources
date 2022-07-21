@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
+%----------------------------------------------------------------------------------------
+ 
+\documentclass{resume} % Use the custom resume.cls style 
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+% More styles for bullets
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage[left=0.5 in,top=0.3 in,right=0.5 in,bottom=0.2in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Protik Chanda} % Your name 
+%\address{Dhaka, Bangladesh} % Your address 
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
+\address{\href{mailto:protikchanda@gmail.com}{\faEnvelope~ protikchanda@gmail.com} ~~~\href{tel:+8801951852803}{\faPhoneSquare~ +8801951852803} \href{https://www.linkedin.com/in/protikchanda}{~~~\faLinkedin~ linkedin.com/in/protikchanda} \href{https://protik.me}{~~~\faAtlas~ https://protik.me} } % Your phone number and email
+
+\begin{document}  
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\hrule  %=================Added Hrule Line================
+\begin{rSection}{Education}
+
+{\bf National Institute of Technology Durgapur, WB, India} \hfill {\sl July 2017 - June 2021}
+\\
+ \hspace*{2ex}{\bf Bachelor of Technology(B.Tech) in Biotechnology}, GPA-6.74 (First-Class)  
+\\
+\hspace*{2ex}Relevant Courses: Intoduction to Computing; Data Structures; DBMS; \\\hspace*{2ex}\vspace{0.5em}Bioinformatics; Basic Electronics; Electrical Systems; Math-I; Math-II; Math-III
+\\{\bf Dhaka Education Board, Bangladesh}\\ 
+ \hspace*{2ex}{\bf Higher Secondary Certificate}, Science, GPA: 5 (out of 5)\hfill { \sl January 2013 - May 2014}\\
+ \hspace*{2ex}{\bf Secondary School Certificate}, Science, GPA: 5 (Golden)\hfill { \sl June 2014 - August 2016}%
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
+Languages & Java, JavaScript, Python, C, SQL (Descending order of proficiency)\\    
+Technologies & Spring Boot, Reactjs, React-Native, Gatsbyjs, Bootstrap, MySQL, MongoDB, Git\\
+Familiar with &Docker, GithubAction, AWS EC2, Firebase, Photoshop\\ 
+Operating Systems & MacOS, Linux\\
+Online Handles & \textbf{\faGithub GitHub} :\href{https://www.github.com/piedpipr}{   www.github.com/piedpipr}
+%Remove comment to show Leetcode
+%{\textbf{\includegraphics[scale=0.049]{image/leetcode-icon.png}LeetCode} :\href{https://www.leetcode.com/piedpipr}{   www.leetcode.com/piedpipr}} 
+\\
+\end{tabular}   
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%	PROJECTS
+
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{SimplyBlog - A spring boot reactjs fullstack microblog}{\sl %{January 2016 - April 2016}
+}{Developed as a personal project}{}
+\begin{itemize}[noitemsep, label=\small\textbullet]
+    \item Used Springboot, Spring Data JPA, Hibernate and MySQL for backend and Reactjs for frontend.
+    \item Implemented Login/Register, JWT Authentication, Profile, Blog, Connection, Follow and Chat Functions.
+\end{itemize}
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{GradMate - A visual/graphical flashcard app in react-native}{\sl %{July 2015 - October 2015}
+}{A personal and first android app project}{}
+\begin{itemize}[noitemsep,label=\small\textbullet]
+\item Used React-native, Firebase, Google Cloud Auth, React Navigation, LocalStorage.
+\item Developed a graphical flashcard app having Login, Anonymous Login and Dashboard with Stats features.
+\end{itemize}
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{Selenium-Chromedriver-Atomation: Binary Options Autotrader}{\sl %{July 2015 - October 2015}
+}{Developed a project as a personal hack and fiddling}{}
+\begin{itemize}[noitemsep,label=\small\textbullet]
+\item Used Chromedriver, Python, Selenium python package, Supervisor(for failsafe and cloud) and Twilio APIs.
+\item Automated user events, follow given pattern, change pattern dynamically on trading outcome, call on fail
+\end{itemize}
+\end{rSubsection}
+
+
+\end{rSection} 
+
+%--------------------------------------------------------------------------------------
+%   Research Publications 
+%--------------------------------------------------------------------------------------
+% \begin{rSection}{ Research Publication } \itemsep -3pt        
+
+% {\textbf{Akshay Vaishnav}, Path Lathiya, Mohit Sarvaiya"\textit{Design Optimization of Hydraulic Press Plate using Finite \\Element Analysis}"Vol. 6 - Issue 5, International Journal of Engineering Research and Applications (IJERA), \\ISSN: 2248-9622 } \hfill May 2016 \\    
+ 
+% \end{rSection}
+
+
+%	INTERNSHIP/TRAININGS 
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{INTERNSHIP/TRAININGS} \itemsep -3pt  
+
+% {\textbf{Automotive Industry Simulation Internship}, \\Expertshub,Sinhgad Institute of Engineering, Pune } \hfill June 2015 \\   
+% {\textbf{Machining and Quality Control of Forged Connecting Rods}, \\Amul Group of Industries, Rajkot} \hfill February 2015 \\     
+
+% \end{rSection}  
+ 
+ %-----------------------------------------------------------------------------
+ % EXPERIENCE AND POSITION OF RESPONSIBILITY
+ %-----------------------------------------------------------------------------
+  
+\begin{rSection}{EXPERIENCE AND POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Head of Creative and Web at RECursion NIT Durgapur Coding Club}{\sl Durgapur, WB, India}{Was responsible for club's website UI, Graphics works and organizing fests}{\sl October 2018- July 2021}
+\begin{itemize}[noitemsep,label=\small\textbullet]
+\item Worked in a team of talented individuals for organizing regular coding \\classes, ICPC like coding contests in the campus/worldwide and annual \\campus Techno-management fests Aarohaan and Avishkar.
+\item Developed the Django's jinja based UI for \href {https://recursionnitd.in}{https://recursionnitd.in} collaboratively and designed posters.
+\end{itemize}
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Developer Intern at Bangladesh Computer Council} {\sl Dhaka, Bangladesh}{Worked as summer intern as required for the partial fullfillment of B.Tech degree}{\sl May 2019-June 2019} 
+\begin{itemize}[noitemsep,label=\small\textbullet]
+\item Worked in a team of two intern developers under a project guide.     
+\item Developed a project named 'Smart Leave Management System' using Mongodb-\\Express-Handlebars-Bootstrap as techstack, I mostly was resposible for the UI.
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+  
+
+%--------------------------------------------------------------------------------------
+% Extra-Cirrucular
+%--------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards, Achievements And Publications}   
+\begin{itemize}[noitemsep,label=\small\textbullet]
+\item Submitted a co-authored paper to \textbf{Springer's Reviews in Environmental Science \\and Bio/Technology}, impact factor 14.284, awaiting acceptance confirmation.\hfill {\sl June 2022} 
+\item Awarded fully funded \textbf{International ICCR Scholarship} by Indian Council \\For Cultural Relations for persuing four years of B.Tech at NIT Durgapur \hfill {\sl June 2017} 
+\item Divisional Runners-up in Speech competition in \textbf{Bangladesh Children Prize Award}, \hfill {\sl March 2012} 
+\end{itemize}  
+\end{rSection} 
+
+%---------------------------------------------------------------------------------
+%  DECLARATION
+%--------------------------------------------------------------------------------
+
+% \begin{rSection}{ Declaration  } \itemsep -3pt        
+
+% \item I hereby declare that all the details furnished above are true to the best of my knowledge and belief.   
+  
+% \end{rSection}
+\end{document}
